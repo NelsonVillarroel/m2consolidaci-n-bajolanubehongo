@@ -1,22 +1,96 @@
-body{
-    background-color: gray;
-    background-image: url("../img/niñorobot.png");
+
+
+/* header */
+header {
+    background-color: black;
+    padding: 80px;
+}
+
+#titulo {
+    color: white;
+    margin-bottom: 10px;
+}
+
+#subtitulo {
+    color: white;
+    margin-bottom: 10px;
+}
+
+.fa-instagram {
+    font-size: 50px;
+    color: white;
+
+}
+
+/* main */
+#cuerpo {
+    background-image: url("../img/vestido.png");
+    background-position: 50% 25%;
+    background-size: cover;
     background-repeat: no-repeat;
-    background-size: 100% 100%;
 }
-header{
-    margin-top: 100px;
-    margin-bottom: 60px;
+
+/* presentación */
+#presentación {
+    color: black;
+    text-align: justify center;
+    margin: 5%;
 }
-button{
+
+/* botones */
+.buttonR {
     background-color: transparent;
     width: 320px;
     height: 160px;
     text-align: center;
-   
+    margin-right: 15%;
+    display: inline-block;
+    border-radius: 10px;
 }
-#button1{
-    background-image: url("../img/bailarina.png");
-    background-size: 100% 100%;
+
+#button1 {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+ 
+    margin-bottom: 20px;
+}
+
+#button2 {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 20px;
+}
+
+#button3 {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 20px;
+}
+
+#button4 {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     
+}
+
+/* Footer */
+footer {
+    background-color: black;
+    height: 120px;
+    position: relative;
+    
+}
+
+#derechos {
+    color: white;
+    text-align: center;
+    position: absolute;
+    bottom: 10px;
+    
+
+
 }
