@@ -1,0 +1,132 @@
+body{
+    margin: 0;
+}
+
+/* header */
+header {
+    background-color: black;
+    padding: 80px;
+}
+
+#titulo {
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: white;
+    margin-bottom: 10px;
+}
+
+#subtitulo {
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: grey;
+    margin-bottom: 10px;
+}
+
+.fa-instagram {
+    margin-top: 20px;
+    font-size: 300%;
+    color: mediumorchid;
+}
+
+#instagram {
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: pink;
+}
+
+/* main */
+#cuerpo {
+    background-image: url("../img/niñorobot.png");
+   
+    background-position: 50% 20%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* presentación */
+#presentación {
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    color: white;
+    text-align: justify;
+    margin: 10%;
+}
+
+/* botones */
+.buttonR {
+    background-color: transparent;
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 120%;
+    color: purple;
+    width: 320px;
+    height: 160px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+#botones {
+    margin-top: 30px;
+    margin-bottom: 60px;
+    margin-left: 7%;
+    text-align: center;
+}
+
+#button1 {
+    background-position: 50% 20%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 20px;
+}
+
+#button2 {
+    background-position: 50% 45%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 20px;
+}
+
+#button3 {
+    background-position: 50% 42%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 20px;
+}
+
+#button4 {
+    background-position: 50% 45%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 20px;
+}
+
+/* Footer */
+footer {
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 300px;
+    font-style: normal;
+    background-color: black;
+    height: 180px;
+    position: relative;
+}
+
+#perrito{
+    width: 120px;
+    margin-top: 10px;
+    margin-left: 40px;
+}
+
+#derechos {
+    color: gray;
+    text-align: right;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}

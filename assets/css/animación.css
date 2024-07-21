@@ -1,0 +1,85 @@
+body{
+    margin: 0;
+}
+
+/* header */
+header {
+    background-color: black;
+    padding: 80px;
+}
+
+#titulo {
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: white;
+    margin-bottom: 10px;
+}
+
+/* main */
+#cuerpo {
+    background-image: url("../img/cereal.png");
+    background-position: 50% 40%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px;
+    padding: 40px;
+    min-height: calc(100vh - 280px);
+}
+
+@media (max-width: 768px) and (max-width: 1024px) {
+    #cuerpo{
+        padding: 5px;
+    }
+}
+
+
+#videotext{
+    margin-bottom: 60px;
+    justify-content: center;
+    color: white;
+    margin-top: 0;
+    margin-left: 7%;
+    margin-right:7%;
+}
+
+.videocontainer{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    height: 80vh;
+    margin-bottom: 60px;
+}
+
+@media (max-width: 768px) {
+    #ultimaestación {
+        width: 100%; 
+    }
+}
+
+/* Footer */
+footer {
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 300px;
+    font-style: normal;
+    background-color: black;
+    height: 180px;
+    position: relative;
+}
+
+#perrito{
+    width: 120px;
+    margin-top: 10px;
+    margin-left: 40px;
+}
+
+#derechos {
+    color: gray;
+    text-align: right;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}

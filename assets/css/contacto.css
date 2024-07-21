@@ -1,0 +1,88 @@
+body{
+    margin: 0;
+}
+
+/* header */
+header {
+    background-color: black;
+    padding: 80px;
+}
+#titulo {
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: white;
+    margin-bottom: 10px;
+}
+
+/* main */
+#cuerpo {
+    background-image: url("../img/yisus.png");
+    background-position: 50% 40%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px;
+}
+
+/* text */
+#formtext1 {
+    
+    margin-bottom: 50px;
+    
+}
+#formtext2 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.fa-instagram {
+    margin-top: 20px;
+    margin-left: 30px;
+    font-size: 300%;
+    color: red;
+}
+
+#instagram {
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: white;
+    margin-bottom: 20px;
+    margin-left: 30px;
+}
+ 
+/* form */
+.form-control {
+    background-color: transparent;
+}
+
+form {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+/* Footer */
+footer {
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 300px;
+    font-style: normal;
+    background-color: black;
+    height: 180px;
+    position: relative;
+}
+
+#perrito{
+    width: 120px;
+    margin-top: 10px;
+    margin-left: 40px;
+}
+
+#derechos {
+    color: gray;
+    text-align: right;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
