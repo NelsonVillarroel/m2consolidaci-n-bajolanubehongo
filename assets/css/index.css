@@ -1,5 +1,7 @@
+
 body{
     margin: 0;
+
 }
 
 /* header */
@@ -118,9 +120,14 @@ footer {
 }
 
 #perrito{
-    width: 120px;
-    margin-top: 10px;
+    width: 100px;
+    margin-top: 20px;
     margin-left: 40px;
+}
+@media (max-width: 768px){
+    #perrito{
+        margin-left: 10px;
+    }
 }
 
 #derechos {

@@ -27,14 +27,15 @@ header {
     font-size: 20px;
 }
 
-/* text */
 #formtext1 {
     
     margin-bottom: 50px;
+    margin-left: 30px;
     
 }
 #formtext2 {
     margin-top: 50px;
+    margin-left: 30px;
     margin-bottom: 50px;
 }
 .fa-instagram {
@@ -74,9 +75,14 @@ footer {
 }
 
 #perrito{
-    width: 120px;
-    margin-top: 10px;
+    width: 100px;
+    margin-top: 20px;
     margin-left: 40px;
+}
+@media (max-width: 768px){
+    #perrito{
+        margin-left: 10px;
+    }
 }
 
 #derechos {

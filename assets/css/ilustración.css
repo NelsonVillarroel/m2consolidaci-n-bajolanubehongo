@@ -1,0 +1,76 @@
+body{
+    margin: 0;
+
+}
+/* header */
+header {
+    background-color: black;
+    padding: 80px;
+}
+
+#titulo {
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: white;
+    margin-bottom: 10px;
+}
+
+/* main */
+#cuerpo {
+    background-image: url("../img/vestido.png");
+    background-position: 50% 60%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px;
+    
+    
+}
+
+#texto{
+    margin-top: 40px;
+    margin-bottom: 80px;
+    margin-left: 30px;
+    color: black;
+}
+
+.imgalery{
+    width: 360px;
+    height: auto;
+    margin-bottom: 40px;
+    margin-left: 0px;
+    padding: 40px;
+}
+
+
+/* Footer */
+footer {
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 300px;
+    font-style: normal;
+    background-color: black;
+    height: 180px;
+    position: relative;
+}
+
+#perrito{
+    width: 100px;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+@media (max-width: 768px){
+    #perrito{
+        margin-left: 10px;
+    }
+}
+
+#derechos {
+    color: gray;
+    text-align: right;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
